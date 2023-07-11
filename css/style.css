@@ -1,16 +1,15 @@
 * {
   margin: 0px;
   padding: 0px;
-
 }
 
-/* header section  */
+/* header section start */
 
 .header {
   width: 1920px;
   height: 850px;
-  /* background: rgba(229, 84, 115, 0.1); */
-  background-color: rgb(115, 236, 236);
+  background: rgba(229, 84, 115, 0.1);
+  /* background-color: rgb(115, 236, 236); */
   display: flex;
   align-items: center;
   /* margin: 50px 240px 0px 240px; */
@@ -73,8 +72,8 @@ button {
 .flower {
   width: 1440px;
   height: 900px;
-  /* background: rgba(229, 84, 115, 0.05); */
-  background-color: burlywood;
+  background: rgba(229, 84, 115, 0.05);
+  /* background-color: burlywood; */
   margin: 128px 240px 0px 240px;
 }
 .flower-title {
@@ -209,7 +208,7 @@ button {
   flex-shrink: 0;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  background: #272727;
+  /* background: #272727; */
   margin: 128px 240px 0px 240px;
 }
 
@@ -253,8 +252,8 @@ button {
   display: flex;
   flex-direction: row;
   /* justify-content: space-around; */
-  /* color: rgba(39, 39, 39, 0.8); */
-  color: white;
+  color: rgba(39, 39, 39, 0.8);
+  /* color: white; */
   text-align: center;
   font-family: Lato;
   font-size: 24px;
@@ -269,14 +268,14 @@ button {
 }
 
 .flower2-caption2 {
-    position: relative;
-    margin-left: 110px;
-  }
+  position: relative;
+  margin-left: 110px;
+}
 
-  .flower2-caption3 {
-    position: relative;
-    margin-left: 220px;
-  }
+.flower2-caption3 {
+  position: relative;
+  margin-left: 220px;
+}
 
 /* hot deal section start */
 
@@ -284,8 +283,8 @@ button {
   width: 1922px;
   height: 620px;
   border-radius: 8px;
-  /* background: rgba(229, 84, 115, 0.05); */
-  background-color: burlywood;
+  background: rgba(229, 84, 115, 0.05);
+  /* background-color: burlywood; */
   display: flex;
   justify-content: space-between;
   margin-top: 128px;
@@ -332,7 +331,7 @@ button {
 /* intagram section */
 .instagram {
   width: 1440px;
-  background-color: beige;
+  background-color: white;
   margin: 128px 240px 0px 240px;
 }
 .insta-title {
@@ -423,6 +422,18 @@ button {
   font-weight: 700;
   line-height: normal;
 }
+
+::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 23px;
+}
+
 /* deals completed */
 /* footer section */
 .footer {
