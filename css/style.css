@@ -173,31 +173,108 @@ button {
 }
 
 .caption2 {
-    position: absolute;
-    margin-left: 620px;
-    margin-top: 32px;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+.caption3 {
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+/* flower section completed */
+/* flower next section section */
+
+.flower2 {
+  width: 1440px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  background: #272727;
+  margin: 128px 240px 0px 240px;
+}
+
+.flower2-icon {
+  padding: 86px 0px 0px 0px;
+  width: 88px;
+  height: 88px;
+  /* flex-shrink: 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flower2-icon {
+  /* width: 88px;
+    height: 88px; */
+  /* flex-shrink: 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flower2-image1 {
+  position: relative;
+  margin-left: 1420px;
+}
+
+.flower2-image2 {
+  position: static;
+  margin-left: 417px;
+  /* margin: 0px 0px 0px 261px;  */
+}
+
+.flower2-image3 {
+  position: relative;
+  margin-left: 400px;
+
+  /* margin: 0px 0px 0px 317px;  */
+}
+
+.flower2-caption {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  /* color: rgba(39, 39, 39, 0.8); */
+  color: white;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.flower2-caption1 {
+  position: relative;
+  margin-left: 90px;
+}
+
+.flower2-caption2 {
+    position: relative;
+    margin-left: 110px;
   }
 
-  .caption3 {
-    position: absolute;
-    margin-left: 1100px;
-    margin-top: 32px;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+  .flower2-caption3 {
+    position: relative;
+    margin-left: 220px;
   }
 
 /* hot deal section start */
