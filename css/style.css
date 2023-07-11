@@ -481,3 +481,24 @@ button {
 }
 
 /* footer end */
+/*Back To Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 5px;
+    float: right;
+    right: 18.5%;
+    left: 95%;
+    max-width: 60px;
+    width: 100%;
+    font-size: 30px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+/*Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
