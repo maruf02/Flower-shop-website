@@ -73,10 +73,11 @@ button {
   width: 1922px;
   height: 620px;
   border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
-  /* background-color: blueviolet; */
+  /* background: rgba(229, 84, 115, 0.05); */
+  background-color: burlywood;
   display: flex;
   justify-content: space-between;
+  margin-top: 128px;
 }
 
 .hot-deal-title {
@@ -116,14 +117,111 @@ button {
   margin: 100px 429px 100px 0px;
 }
 /* hot deal section completed */
+
+/* intagram section */
+.instagram {
+  width: 1440px;
+  background-color: beige;
+  margin: 128px 240px 0px 240px;
+}
+.insta-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* padding: 0px 870px; */
+}
+.insta-description {
+  width: 594px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 10px 663px 20px 433px;
+}
+
+.insta-image {
+  /* margin: 0px 220px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.insta-image img {
+  /* margin-right: 14px;
+  margin-bottom: 5px; */
+  width: 342px;
+  height: 396px;
+  flex-shrink: 0;
+  
+}
+
+/* latest deal section */
+.deals {
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  background-image: url(../image/Rectangle\ 9.png);
+  margin: 128px 240px 0px 240px;
+}
+.deals-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  padding: 122px 534px 0px 533px;
+}
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.deals-parameter {
+  /* margin: 24px 453px 121px 287px; */
+  display: flex;
+  flex-direction: row;
+}
+#input-text {
+  border-radius: 8px;
+  background: white;
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 24px 23px 121px 287px;
+}
+.btn-deals {
+  margin: 24px 287px 121px 0px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* deals completed */
 /* footer section */
 .footer {
   width: 1922px;
   height: 449px;
   background: #111010;
+  margin-top: 128px;
 }
-.footer-title {
-}
+
 .footer-title-one {
   color: #e55473;
   font-family: Lato;
