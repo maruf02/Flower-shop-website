@@ -67,6 +67,139 @@ button {
   margin: 50px 240px 0px 0px;
 }
 /* banner section close */
+
+/* flower section start */
+.flower {
+  width: 1440px;
+  height: 900px;
+  /* background: rgba(229, 84, 115, 0.05); */
+  background-color: burlywood;
+  margin: 128px 240px 0px 240px;
+}
+.flower-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  /* margin: 0px 764px 0px 384px; */
+}
+
+.flower-description {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 663px 0px 383px;
+}
+
+.flower-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flower-image1 {
+  background: url(../image/Rectangle\ 1.png) no-repeat center;
+  background-size: cover;
+  height: 538px;
+  width: 464px;
+  left: 0%;
+  top: 5%;
+  position: relative;
+  margin-top: 25px;
+}
+.flower-image1 img {
+  margin: 5px 0px 0px 0px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.flower-image2 {
+  background: url(../image/Rectangle\ 2.png) no-repeat center;
+  background-size: cover;
+  height: 538px;
+  width: 464px;
+  left: 0%;
+  top: 5%;
+  position: relative;
+  margin-top: 25px;
+}
+.flower-image2 img {
+  margin: 5px 0px 0px 0px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.flower-image3 {
+  background: url(../image/Rectangle\ 3.png) no-repeat center;
+  background-size: cover;
+  height: 538px;
+  width: 464px;
+  left: 0%;
+  top: 5%;
+  position: relative;
+  margin-top: 25px;
+}
+.flower-image3 img {
+  margin: 5px 0px 0px 0px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.caption1 {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+.caption2 {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+  }
+
+  .caption3 {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+  }
+
 /* hot deal section start */
 
 .hot-deal {
@@ -162,7 +295,6 @@ button {
   width: 342px;
   height: 396px;
   flex-shrink: 0;
-  
 }
 
 /* latest deal section */
