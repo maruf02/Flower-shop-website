@@ -71,8 +71,8 @@ button {
 /* flower section start */
 .flower {
   width: 1440px;
-  height: 900px;
-  background: rgba(229, 84, 115, 0.05);
+  height: 800px;
+  background: white;
   /* background-color: burlywood; */
   margin: 128px 240px 0px 240px;
 }
